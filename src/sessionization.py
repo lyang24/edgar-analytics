@@ -1,6 +1,5 @@
 import logging
 import os
-import sys
 import contextlib
 from collections import OrderedDict
 from argparse import ArgumentParser
