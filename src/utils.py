@@ -14,6 +14,13 @@ log = logging.getLogger(__name__)
 
 
 def dump_list_to_file_as_line(data, useFilePath, delimiter):
+    '''
+    out put data to list with error handling
+    :param data:
+    :param useFilePath:
+    :param delimiter:
+    :return:
+    '''
     if data:
         if os.path.exists(useFilePath) and os.path.isfile(useFilePath):
             fobj = codecs.open(useFilePath, 'ab')

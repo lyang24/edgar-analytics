@@ -1,6 +1,6 @@
 class Session(object):
     '''
-    class to hold and retrive necessary session values
+    class to hold and retrieve necessary session values
     '''
     def __init__(self, ip, first_session_time):
         self.ip = ip

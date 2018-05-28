@@ -28,7 +28,7 @@ def parse(args):
     unique_timestamp = set()
 
     with contextlib.suppress(FileNotFoundError):
-        os.remove(args.outPath)
+         os.remove(args.outPath)
 
     for (i, row) in enumerate(rows):
         try:

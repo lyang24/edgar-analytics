@@ -1,1 +1,1 @@
-python src/sessionization.py --logFilePath input/logs.csv --inactivityFilePath input/inactivity_period.txt --outPath output/sessions.txt
+python ./src/sessionization.py --logFilePath ./input/logs.csv --inactivityFilePath ./input/inactivity_period.txt --outPath ./output/sessions.txt
