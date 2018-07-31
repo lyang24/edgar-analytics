@@ -16,3 +16,7 @@
 ### Future improvements
 * looking in to criteria 2's logic and come up with optimal algorithms.
 * research into shell scripting to make ./run_test.sh work properly
+
+
+# update
+# now that i am looking back i should probably use a deque like data structure to solve this problem since the question constantly involves pollFirst and OfferLast Deque has these operations at the cost of o(1)
